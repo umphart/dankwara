@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Dankwara Phone Sales Management System
+
+A comprehensive React-based phone sales management system for tracking inventory, sales, and purchases.
+
+## Features
+
+- 📱 **Phone Inventory Management** - Register and track phones
+- 💰 **Sales Processing** - Complete sales with receipt generation
+- 📊 **Dashboard** - Real-time business insights
+- 🔐 **Admin Authentication** - Secure login system
+- 📱 **Responsive Design** - Works on all devices
+- 🧾 **Receipt Generation** - Professional sales receipts
+
+## Tech Stack
+
+- **Frontend**: React.js, React Router, SweetAlert2
+- **Backend**: Node.js, Express.js, PostgreSQL
+- **Styling**: CSS3 with modern design
+
+## Installation
+
+### Frontend Setup
+```bash
+cd dankwara
+npm install
+npm start
