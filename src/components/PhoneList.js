@@ -83,7 +83,7 @@ const PhoneList = ({ onSellPhone, refresh }) => {
               <td>{phone.model}</td>
               <td>{phone.imei}</td>
               <td>{phone.supplier_name}</td>
-              <td>${parseFloat(phone.purchase_price).toFixed(2)}</td>
+             <td>₦{parseFloat(phone.purchase_price).toLocaleString()}</td>
               <td>{new Date(phone.date_in).toLocaleDateString()}</td>
               <td>
                 <button 

@@ -33,18 +33,18 @@ const Receipt = ({ sale, phone, onPrint }) => {
       
       <div className="receipt-item">
         <span>Sale Price:</span>
-        <span>${sale.salePrice.toFixed(2)}</span>
+        <span>₦{sale.salePrice.toFixed(2)}</span>
       </div>
       
       <div className="receipt-item">
         <span>Purchase Price:</span>
-        <span>${phone.purchasePrice.toFixed(2)}</span>
+        <span>₦{phone.purchasePrice.toFixed(2)}</span>
       </div>
       
       <div className="receipt-total">
         <span>Profit:</span>
         <span style={{ color: profit >= 0 ? '#28a745' : '#dc3545' }}>
-          ${profit.toFixed(2)}
+          ₦{profit.toFixed(2)}
         </span>
       </div>
       

@@ -94,9 +94,11 @@ const PurchaseList = () => {
                       </div>
                     </td>
                     <td>
-                      <div className="purchase-price">
-                        ₦{parseFloat(phone.purchase_price).toLocaleString()}
-                      </div>
+<td>
+  <div className="purchase-price">
+    ₦{parseFloat(phone.purchase_price).toLocaleString()}
+  </div>
+</td>
                     </td>
                     <td>
                       <div className="imei-number">
