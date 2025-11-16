@@ -689,15 +689,15 @@ body {
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #1a1a1a;
-    color: #e0e0e0;
+    background-color: #b9b1b1;
+    color: #220b0b;
   }
   
   .form-container,
   .table-container,
   .stat-card,
   .receipt {
-    background: #2d2d2d;
+    background: #1a1717;
     color: #e0e0e0;
   }
   
