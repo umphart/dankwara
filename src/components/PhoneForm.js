@@ -132,7 +132,7 @@ const PhoneForm = ({ onPhoneAdded }) => {
               value={formData.model}
               onChange={handleChange}
               required
-              placeholder="e.g., Samsung Galaxy S23 Ultra"
+              placeholder="e.g., Iphone 13 Pro Max"
               disabled={loading}
               style={{
                 padding: '0.75rem 1rem',
